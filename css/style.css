@@ -1,0 +1,159 @@
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+
+/* TOPO DO SITE */
+.top-bar {
+  margin:0px;
+  background-color:#1a535c;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.top-bar .logo #logo {
+  height: 60px;
+  margin-top: 0px;
+  margin-left: 5px;
+  position: fixed;
+  opacity: 0.5;
+}
+
+/* MENU */
+#menu ul {
+  list-style:none;
+  float: right;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  padding: 2px 10px;
+  display: inline-block;
+
+  /* visual do link */
+  background-color: 4ecdc4;
+  color: #f7fff7;
+  text-decoration: none;
+  border-bottom:3px;
+}
+
+#menu ul li a:hover {
+  color: #ff6b6b;
+  /* border-bottom:3px solid #ff6b6b; */
+}
+
+/* SOBREMIM */
+#sobre {
+  padding: 40px 0px;;
+  text-align: center;
+  background: #1a535c;
+}
+
+#sobre h1 {
+  color: #f7fff7;
+  font-size: 48px;
+}
+
+#sobre img {
+  height: 150px;
+  border-radius: 80px;
+}
+
+#sobre p{
+  color: #f7fff7;
+}
+
+/* HABILIDADES */
+#habilidades {
+  background: #f0d344;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+#habilidades h2{
+  text-align: center;
+  color: #f7fff7;
+  font-size: 30px;
+}
+
+#habilidades h4{
+  color: #f0d344;
+}
+
+#habilidades .caixas{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#habilidades .caixas div {
+  background: #f7fff7;
+  height: 450px;
+  width: 360px;
+  border-radius: 20px;
+  margin: 0px 50px;
+  text-align: center;
+  color: #1a535c;
+  padding: 25px 30px; 
+}
+
+#habilidades .caixas div img{
+  height: 70px;
+}
+
+
+/*CONTATO*/
+#contato {
+  text-align: center;
+  background: #1a535c; 
+  padding-top: 40px;
+  padding-bottom: 60px;
+  color: #f7fff7;
+}
+
+#contato h2 {
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+#contato a {
+  text-decoration: none;
+  color: #f7fff7;
+}
+
+#contato a:hover {
+  color: #ff6b6b;
+}
+
+.linkwp {
+  background: #0dad0d;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+#contato .linkwp:hover {
+  color: #f7fff7;
+  background: #13dd13;
+  
+}
+
+#contato .outroscontatos {
+  padding-top: 20px;
+}
+
+/*APRENDIZADO*/
+#aprendizado {
+background: url(res/background.png);
+background-size: cover;
+display: none;
+/* 
+background-repeat: no-repeat;
+*/
+}
