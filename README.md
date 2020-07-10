@@ -1,2 +1,2 @@
 # MyselfSite
-A project where I train HTML, CSS and JS.
+A project where I presente myself and train HTML, CSS and JS.
