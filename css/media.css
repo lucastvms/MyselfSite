@@ -1,0 +1,24 @@
+
+/*RESPONSIVENESS*/
+@media(max-width: 600px) {
+  #menu {
+    display: none;
+  }
+
+  .top-bar {
+    justify-content: center;
+  }
+
+  .top-bar .logo #logo {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media(max-width: 1040px) {
+  #habilidades .caixas .caixa2, #habilidades .caixas .caixa1 {
+    margin: 40px 5px;
+  }
+}
